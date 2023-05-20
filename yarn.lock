@@ -1038,7 +1038,7 @@
   resolved "https://registry.yarnpkg.com/@babel/regjsgen/-/regjsgen-0.8.0.tgz#f0ba69b075e1f05fb2825b7fad991e7adbb18310"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.3", "@babel/runtime@^7.20.7", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.3", "@babel/runtime@^7.20.7", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.21.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.21.5.tgz#8492dddda9644ae3bda3b45eabe87382caee7200"
   integrity sha512-8jI69toZqqcsnqGGqwGS4Qb1VwLOEp4hz+CXPywcvjs60u3B4Pom/U/7rm4W8tMOYEB+E9wgD0mW1l3r8qlI9Q==
@@ -1195,6 +1195,11 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.2.0.tgz#2cbcf822bf3764c9658c4d2e568bd0c0cb748016"
   integrity sha512-+OJ9konv95ClSTOJCmMZqpd5+YGsB2S+x6w3E1oaM8UuR5j8nTNHYSz8c9BEPGDOCMQYIEEGlVPj/VY64iTbGw==
 
+"@emotion/hash@^0.9.0":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.9.1.tgz#4ffb0055f7ef676ebc3a5a91fb621393294e2f43"
+  integrity sha512-gJB6HLm5rYwSLI6PQa+X1t5CFGrv1J1TWG+sOyMCeKz2ojaj6Fnl/rZEspogG+cvqbt4AE/2eIyD2QfLKTBNlQ==
+
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz#a23514e8fb9af1269d5f7788aa556798d61c6b59"
@@ -1226,6 +1231,92 @@
   version "8.41.0"
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.41.0.tgz#080321c3b68253522f7646b55b577dd99d2950b3"
   integrity sha512-LxcyMGxwmTh2lY9FwHPGWOHmYFCZvbrFCBZL4FzSSsxsRPuhrYUg/49/0KDfW8tnIEaEHtfmn6+NPN+1DqaNmA==
+
+"@fluentui/keyboard-keys@^9.0.3":
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/@fluentui/keyboard-keys/-/keyboard-keys-9.0.3.tgz#e7ab9592b38466a071994a43edfc84bfe830ae79"
+  integrity sha512-40KBVJ9HzsvmPL3rwYaAvxCacNS0xnTmOt6TLxxrAVgVrZ1X7DLgd8OGFZcWROs0dhHdCk2D51bl4nK8Q1r3mQ==
+  dependencies:
+    "@swc/helpers" "^0.4.14"
+
+"@fluentui/react-badge@^9.1.12":
+  version "9.1.12"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-badge/-/react-badge-9.1.12.tgz#56da6cfe9c767a5628b162e171874b7495f9b24d"
+  integrity sha512-jDfx4FJE6NfFubU1Z1NjQlMi/Z/uR3X8QQF09qGZjPRfnItM/mwp6FYik9gRFT7L31sgBRyemaCuirOApx7O/g==
+  dependencies:
+    "@fluentui/react-icons" "^2.0.196"
+    "@fluentui/react-jsx-runtime" "9.0.0-alpha.4"
+    "@fluentui/react-shared-contexts" "^9.4.0"
+    "@fluentui/react-theme" "^9.1.8"
+    "@fluentui/react-utilities" "^9.9.0"
+    "@griffel/react" "^1.5.2"
+    "@swc/helpers" "^0.4.14"
+
+"@fluentui/react-icons@^2.0.196":
+  version "2.0.202"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-icons/-/react-icons-2.0.202.tgz#bc2dfdf89b8df0af86b14cef9892c8ded98d970e"
+  integrity sha512-QMiFMaDj99T+w3/EAdvEfDCk5hkzn6LBkqSVW2Ov+WY25/WNv54W169qmWW8LuEZLUiEYHZejwcEghaMHmswVA==
+  dependencies:
+    "@griffel/react" "^1.0.0"
+    tslib "^2.1.0"
+
+"@fluentui/react-jsx-runtime@9.0.0-alpha.4":
+  version "9.0.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-jsx-runtime/-/react-jsx-runtime-9.0.0-alpha.4.tgz#6123d810c8f0e03dd74880f61499f9ac60742f87"
+  integrity sha512-FVsNvmExQgoYP1sil/udXLi0H5P/lLw1TXotq+e+Zam4+OdFQeCJ0HD/2jN7uRKCDLnmZILyt4ThMGYGv6z2xw==
+  dependencies:
+    "@fluentui/react-utilities" "^9.9.0"
+    "@swc/helpers" "^0.4.14"
+
+"@fluentui/react-shared-contexts@^9.4.0":
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-shared-contexts/-/react-shared-contexts-9.4.0.tgz#87996f5691eb521066d851c6da7c9d6cc4acc196"
+  integrity sha512-yjNvDDJAcbVcAZblh6P8xzFuwAqPcXpf9tOlsNxxlEdwlV7Bk7nDrU13wNaI+Jpks5ASNJo8zWbzUwDI1gFsdA==
+  dependencies:
+    "@fluentui/react-theme" "^9.1.8"
+    "@swc/helpers" "^0.4.14"
+
+"@fluentui/react-theme@^9.1.8":
+  version "9.1.8"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-theme/-/react-theme-9.1.8.tgz#ec755d23b2ecb10e7f2d5e8366128cb8919221a1"
+  integrity sha512-KXSPSfg29sHEHw9rFpZjKTU4KwY4F4kxZIcqA83Kz8Khnfw17NiWmz8XcmxXaMUlqfwVRxBIM9um2uFE5gjcpw==
+  dependencies:
+    "@fluentui/tokens" "1.0.0-alpha.5"
+    "@swc/helpers" "^0.4.14"
+
+"@fluentui/react-utilities@^9.9.0":
+  version "9.9.0"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-utilities/-/react-utilities-9.9.0.tgz#328782dc16ed38834d842bd17434aafa4e1e595b"
+  integrity sha512-PJRISHpB/cZLWl1Ii+e0G6FJ/qqO71hjC7wO+t/QbL8o4rB/8yL9BwMM62mx5hWrnQygcEf2NeZWMAoZxnhIGQ==
+  dependencies:
+    "@fluentui/keyboard-keys" "^9.0.3"
+    "@swc/helpers" "^0.4.14"
+
+"@fluentui/tokens@1.0.0-alpha.5":
+  version "1.0.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/@fluentui/tokens/-/tokens-1.0.0-alpha.5.tgz#cb277b6b64d4e5f499cee0c06e4c1f5fcdae24bb"
+  integrity sha512-4xCNP/tmeDywmo+PoFqDaUADSvNNzoZHVknC4D77S1RWxVuYmcM15eumKcVRrDuW3wS8eEX4/ZsIlDfqAhnU8g==
+  dependencies:
+    "@swc/helpers" "^0.4.14"
+
+"@griffel/core@^1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@griffel/core/-/core-1.11.0.tgz#42e6e2128624d6c53817a4cfd326003a5c437eab"
+  integrity sha512-3jlrsJVbNC0avRMfNGWmbklptmtH5s63Gt/xa0zY6+Oa3kU/StNAu+d0LqLChb5egwXrisQIeC+tzzJ+YozGjg==
+  dependencies:
+    "@emotion/hash" "^0.9.0"
+    csstype "^3.1.2"
+    rtl-css-js "^1.16.1"
+    stylis "^4.0.13"
+    tslib "^2.1.0"
+
+"@griffel/react@^1.0.0", "@griffel/react@^1.5.2":
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/@griffel/react/-/react-1.5.7.tgz#3a6af337bfe7551798aa2f6dd1df032b5869f278"
+  integrity sha512-b9/LkkuO512O268jqRpJPso9ROng/kqh81YSTJUL13tT4qPZQnvrdiwoP7ZeqXbG0zzZHLZ3tWUZrCDOl549OQ==
+  dependencies:
+    "@griffel/core" "^1.11.0"
+    tslib "^2.1.0"
 
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
@@ -1591,6 +1682,11 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
+"@remix-run/router@1.6.2":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.6.2.tgz#bbe75f8c59e0b7077584920ce2cc76f8f354934d"
+  integrity sha512-LzqpSrMK/3JBAVBI9u3NWtOhWNw5AMQfrUFYB0+bDHTSw17z++WJLsPsxAuK+oSddsxk4d7F/JcdDPM1M5YAhA==
+
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.3.1.tgz#04bc0608f4aa4b2e4b1aebf284344d0f68fda283"
@@ -1769,6 +1865,13 @@
     "@svgr/plugin-jsx" "^5.5.0"
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
+
+"@swc/helpers@^0.4.14":
+  version "0.4.14"
+  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.4.14.tgz#1352ac6d95e3617ccb7c1498ff019654f1e12a74"
+  integrity sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==
+  dependencies:
+    tslib "^2.4.0"
 
 "@testing-library/dom@^8.5.0":
   version "8.20.0"
@@ -3501,7 +3604,7 @@ cssstyle@^2.3.0:
   dependencies:
     cssom "~0.3.6"
 
-csstype@^3.0.2:
+csstype@^3.0.2, csstype@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
   integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
@@ -7537,6 +7640,21 @@ react-refresh@^0.11.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
   integrity sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==
 
+react-router-dom@^6.11.2:
+  version "6.11.2"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.11.2.tgz#324d55750ffe2ecd54ca4ec6b7bc7ab01741f170"
+  integrity sha512-JNbKtAeh1VSJQnH6RvBDNhxNwemRj7KxCzc5jb7zvDSKRnPWIFj9pO+eXqjM69gQJ0r46hSz1x4l9y0651DKWw==
+  dependencies:
+    "@remix-run/router" "1.6.2"
+    react-router "6.11.2"
+
+react-router@6.11.2:
+  version "6.11.2"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.11.2.tgz#006301c4da1a173d7ad76b7ecd2da01b9dd3837a"
+  integrity sha512-74z9xUSaSX07t3LM+pS6Un0T55ibUE/79CzfZpy5wsPDZaea1F8QkrsiyRnA2YQ7LwE/umaydzXZV80iDCPkMg==
+  dependencies:
+    "@remix-run/router" "1.6.2"
+
 react-scripts@5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-5.0.1.tgz#6285dbd65a8ba6e49ca8d651ce30645a6d980003"
@@ -7822,6 +7940,13 @@ rollup@^2.43.1:
   integrity sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==
   optionalDependencies:
     fsevents "~2.3.2"
+
+rtl-css-js@^1.16.1:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/rtl-css-js/-/rtl-css-js-1.16.1.tgz#4b48b4354b0ff917a30488d95100fbf7219a3e80"
+  integrity sha512-lRQgou1mu19e+Ya0LsTvKrVJ5TYUbqCVPAiImX3UfLTenarvPUl1QFdvu5Z3PYmHT9RCcwIfbjRQBntExyj3Zg==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
 
 run-parallel@^1.1.9:
   version "1.2.0"
@@ -8342,6 +8467,11 @@ stylehacks@^5.1.1:
     browserslist "^4.21.4"
     postcss-selector-parser "^6.0.4"
 
+stylis@^4.0.13:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/stylis/-/stylis-4.2.0.tgz#79daee0208964c8fe695a42fcffcac633a211a51"
+  integrity sha512-Orov6g6BB1sDfYgzWfTHDOxamtX1bE/zo104Dh9e6fqJ3PooipYyfJ0pUmrZO2wAvO8YbEyeFrkV91XTsGMSrw==
+
 sucrase@^3.32.0:
   version "3.32.0"
   resolved "https://registry.yarnpkg.com/sucrase/-/sucrase-3.32.0.tgz#c4a95e0f1e18b6847127258a75cf360bc568d4a7"
@@ -8431,7 +8561,7 @@ symbol-tree@^3.2.4:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
-tailwindcss@^3.0.2:
+tailwindcss@^3.0.2, tailwindcss@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.3.2.tgz#2f9e35d715fdf0bbf674d90147a0684d7054a2d3"
   integrity sha512-9jPkMiIBXvPc2KywkraqsUfbfj+dHDb+JPWtSJa9MLFdrPyazI7q6WX2sUrm7R9eVR7qqv3Pas7EvQFzxKnI6w==
@@ -8623,7 +8753,7 @@ tslib@^1.8.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.3:
+tslib@^2.0.3, tslib@^2.1.0, tslib@^2.4.0:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.5.2.tgz#1b6f07185c881557b0ffa84b111a0106989e8338"
   integrity sha512-5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==
