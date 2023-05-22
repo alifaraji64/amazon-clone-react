@@ -10,3 +10,43 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.custom-shape-divider-bottom-1684792324 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1684792324 svg {
+  position: relative;
+  display: block;
+  width: calc(118% + 1.3px);
+  height: 90px;
+}
+
+.custom-shape-divider-bottom-1684792324 .shape-fill {
+  fill: #0891B2;
+}
+
+.custom-shape-divider-top-1684793208 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1684793208 svg {
+  position: relative;
+  display: block;
+  width: calc(118% + 1.3px);
+  height: 90px;
+}
+
+.custom-shape-divider-top-1684793208 .shape-fill {
+  fill: #0891B2;
+}
